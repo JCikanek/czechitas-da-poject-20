@@ -4,7 +4,7 @@
       <v-card>
         <v-img v-bind:src="`/fotky_projekt_DA/${zobrazPolozku.images}`" height="200px"></v-img>
         <v-card-title class="headline" v-text="zobrazPolozku.nazev"></v-card-title>
-        ---
+        &nbsp;
         <v-card-subtitle class="margin-top">
           {{ zobrazPolozku.cena }} Kč/den
           <br />
